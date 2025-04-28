@@ -1,0 +1,29 @@
+.japanese-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.heading-line {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+
+.blue-text {
+  background: linear-gradient(90deg, #0066ff, #003399);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (max-width: 768px) {
+  .heading-line {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+}

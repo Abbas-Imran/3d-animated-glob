@@ -1,0 +1,20 @@
+.c-copy__txt svg {
+  width: 100%;
+  height: auto;
+}
+
+.c-copy__txt .path {
+  fill: #333333;
+  transition: fill 0.3s ease;
+}
+
+.c-copy__txt.is-03 .path {
+  fill: url(#grad);
+}
+
+.c-copy {
+  max-width: 800px;
+  margin-right: 0;
+  margin-left: auto;
+  padding-right: 2rem;
+}
