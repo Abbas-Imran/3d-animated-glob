@@ -8,7 +8,7 @@ import { OrbitControls, shaderMaterial } from "@react-three/drei"
 import { Menu } from "lucide-react"
 import * as THREE from "three"
 import { extend } from "@react-three/fiber"
-import JapaneseHeading from "../japanese-heading"
+import JapaneseHeading from "./japanese-heading"
 import "./japanese-heading.css"
 
 // Create a custom shader material for the gradient effect
